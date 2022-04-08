@@ -27,7 +27,7 @@ jobs:
         with:
           context: ./keycloak-original/quarkus/container
           platforms: linux/amd64,linux/arm64
-          file: ./Dockerfile
+          file: ./keycloak-original/quarkus/container/Dockerfile
           push: true
           tags: |
             hernanisoares/keycloak:latest
